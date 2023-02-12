@@ -1,4 +1,4 @@
-name: Build and Scan
+name: Build
 on:
   workflow_dispatch:
 jobs:
