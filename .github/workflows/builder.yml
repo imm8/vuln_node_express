@@ -16,7 +16,7 @@ jobs:
           rm -rf package-lock.json
           npm install
       - name: Run application
-        run: npm start
+        run: npm start&
       - name: OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
