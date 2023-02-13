@@ -1,0 +1,7 @@
+name: On Push
+on:
+  push:
+jobs:
+  runs-on: ubuntu-20.04
+  - name: Echo Hello
+    runs: echo "Hello"
